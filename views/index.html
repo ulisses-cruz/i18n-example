@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>i18n Example</title>
+</head>
+<body>
+  {{{__ "Good morning. How are you?" }}}
+  <form id='lang-switch' method='post'>
+    <label>
+      <input type='radio' name='lang' value='en' {{#if en}}checked{{/if}}>
+      EN
+    </label>
+    <label>
+      <input type='radio' name='lang' value='fr' {{#if fr}}checked{{/if}}>
+      FR
+    </label>
+  </form>
+
+
+  <script>
+    const form = document.getElementById('lang-switch');
+    const radios = form.getElementsByTagName('input')
+    for(element of radios){
+      element.addEventListener('change', () => {
+        form.submit()
+      })
+    }
+  </script>
+</body>
+</html>
