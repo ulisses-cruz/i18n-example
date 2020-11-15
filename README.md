@@ -19,8 +19,10 @@ Simple i18n Example
   
   // simple i18n configuration
   i18n.configure({
-    locales: ['pt', 'en'],             // the first locale in the array will be the default, 'pt' in this case
-    cookie: 'locale',                  // the cookie that will be search for to set the current locale
+    locales: ['pt', 'en'],             // the first locale in the array will be the default,
+                                       // 'pt' in this case
+    cookie: 'locale',                  // the cookie that will be search for to set the 
+                                       // current locale
     directory: __dirname + 'locales',
   })
   app.use(i18n.init)                   // this middleware will set the i18n methods in the 
