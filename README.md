@@ -1,7 +1,9 @@
 # i18n-example
-Simple i18n Example
+Simple i18n Example.
 
 ![CodeQL](https://github.com/ulisses-cruz/i18n-example/workflows/CodeQL/badge.svg?branch=master)
+
+This repo provides a simple code example of how to use the [i18n](https://github.com/mashpie/i18n-node) library.
 
 ## How to setup
 
