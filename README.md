@@ -1,6 +1,8 @@
 # i18n-example
 Simple i18n Example
 
+![CodeQL](https://github.com/ulisses-cruz/i18n-example/workflows/CodeQL/badge.svg?branch=master)
+
 ## How to setup
 
 * __installation__:
